@@ -1,0 +1,67 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+  }
+
+  h1 {
+    color: #222;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #fff;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  #palavra {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #2c3e50;
+    border-radius: 5px;
+    outline: none;
+    margin-top: 10px;
+    width: 250px;
+    text-align: center;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #2c3e50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  button:hover {
+    background: #34495e;
+  }
+
+  #resultado {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  #pontos {
+    font-size: 20px;
+    font-weight: bold;
+    color: #27ae60;
+  }
